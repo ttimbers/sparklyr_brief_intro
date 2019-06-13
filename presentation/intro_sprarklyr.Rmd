@@ -1,0 +1,58 @@
+---
+title: "A brief introduction to sparklyr"
+author: "@TiffanyTimbers / @UBC"
+date: "06/14/2019"
+output:
+  revealjs::revealjs_presentation:
+    self_contained: true
+    css: styles/reveal.css
+    theme: white
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(eval = FALSE)
+```
+
+## What to do when code is slow?
+
+```{r}
+mtcars %>% lm(mpg ~ wt + cyl, .)
+```
+
+```{r}
+# Sample
+mtcars %>% dplyr::sample_n(10) %>% lm(mpg ~ wt + cyl, .)
+```
+
+```{r}
+# Profile
+profvis::profvis(mtcars %>% lm(mpg ~ wt + cyl, .))
+```
+
+```{r}
+# Scale Up
+cloudml::cloudml_train("train.R")
+```
+
+```{r}
+# Scale Out
+mtcars_tbl %>% sparklyr::ml_linear_regression(mpg ~ wt + cyl)
+```
+
+*Attribution: [Javier Luraschi's talk slides from SDSS 2019](https://github.com/javierluraschi/talks/tree/master/2019-05-31)*
+
+---
+
+## Scaling Out with R and Spark
+
+![](https://s3.amazonaws.com/javierluraschi/scaling-r-with-spark-rstudio-conf/images/spark-scale-out-scale-up.png)
+
+```{r}
+# Scale Out
+mtcars_tbl %>% sparklyr::ml_linear_regression(mpg ~ wt + cyl)
+```
+
+*Attribution: [Javier Luraschi's talk slides from SDSS 2019](https://github.com/javierluraschi/talks/tree/master/2019-05-31)*
+
+
+---
