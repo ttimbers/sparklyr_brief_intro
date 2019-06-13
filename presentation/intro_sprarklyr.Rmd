@@ -54,5 +54,26 @@ mtcars_tbl %>% sparklyr::ml_linear_regression(mpg ~ wt + cyl)
 
 *Attribution: [Javier Luraschi's talk slides from SDSS 2019](https://github.com/javierluraschi/talks/tree/master/2019-05-31)*
 
+---
+
+## How/where can you use Spark
+
+![](img/spark.png)
+
+source:  [Zaharia et al. (2016). Apache Spark: A Unified Engine For Big Data Processing](https://m-cacm.acm.org/magazines/2016/11/209116-apache-spark/fulltext?mobile=true)
 
 ---
+
+## Example cloud platform
+
+- Amazon EMR
+
+---
+
+## Simple platform for getting started with Spark
+
+(and `sparklyr`)
+
+<img src="img/databricks.png" width="1700">
+
+
