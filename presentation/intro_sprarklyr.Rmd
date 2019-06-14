@@ -64,16 +64,18 @@ source:  [Zaharia et al. (2016). Apache Spark: A Unified Engine For Big Data Pro
 
 ---
 
-## Example cloud platform
+## Leading Spark cloud platforms
 
-- Amazon EMR
+![](img/spark-cloud.png)
 
 ---
 
-## Simple platform for getting started with Spark
-
-(and `sparklyr`)
-
-<img src="img/databricks.png" width="1700">
+## `sparklyr` + Databricks demo
 
 
+
+---
+
+## Today's Demo
+
+[Notebook](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/122317798088836/2899638924944155/7990734693716546/latest.html)
