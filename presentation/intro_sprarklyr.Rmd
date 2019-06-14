@@ -41,18 +41,48 @@ mtcars_tbl %>% sparklyr::ml_linear_regression(mpg ~ wt + cyl)
 
 *Attribution: [Javier Luraschi's talk slides from SDSS 2019](https://github.com/javierluraschi/talks/tree/master/2019-05-31)*
 
+
 ---
 
-## Scaling Out with R and Spark
+## Scaling up vs scaling out
 
-![](https://s3.amazonaws.com/javierluraschi/scaling-r-with-spark-rstudio-conf/images/spark-scale-out-scale-up.png)
+![](https://hadoop4usa.files.wordpress.com/2012/04/kb_scale_outup.png)
 
-```{r}
-# Scale Out
-mtcars_tbl %>% sparklyr::ml_linear_regression(mpg ~ wt + cyl)
-```
+source: https://hadoop4usa.wordpress.com/2012/04/13/scale-out-up/
 
-*Attribution: [Javier Luraschi's talk slides from SDSS 2019](https://github.com/javierluraschi/talks/tree/master/2019-05-31)*
+---
+
+## Scaling out 
+
+MapReduce (Hadoop) was the original big kid on the block in terms of scaling out.
+
+![](https://media.giphy.com/media/hPP3tdJZS0QvK/giphy.gif)
+
+---
+
+## Reminder of how MapReduce works
+
+![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2016/11/MapReduce-Way-MapReduce-Tutorial-Edureka.png)
+
+source: https://www.edureka.co/blog/mapreduce-tutorial/
+
+---
+
+## Hadoop vs Spark
+
+![](img/apache-spark-vs-hadoop-figure.png)
+
+source: http://www.big-data.tips/apache-spark-vs-hadoop
+
+---
+
+## Choice for scaling out 
+
+Spark's increases in speed and ease of use means there is now a faster and smoother kid on the block...
+
+![](https://media.giphy.com/media/4gTiTeUzVMNiM/giphy.gif)
+
+
 
 ---
 
@@ -73,9 +103,13 @@ source:  [Zaharia et al. (2016). Apache Spark: A Unified Engine For Big Data Pro
 ## `sparklyr` + Databricks demo
 
 
+Notebook 1 - [Install `sparklyr` on Databricks cluster](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/122317798088836/2899638924944209/7990734693716546/latest.html)
+
+Notebook 2 - [Analysis demo](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/122317798088836/1209097457925280/7990734693716546/latest.html)
 
 ---
 
-## Today's Demo
+## Full code from today's demo
 
 [Notebook](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/122317798088836/2899638924944155/7990734693716546/latest.html)
+
