@@ -1,6 +1,8 @@
 # A brief introduction to `sparklyr`
 A brief introduction to using Spark with R via the sparklyr (includes a demo using Databricks).
 
+[Access slides here](https://ttimbers.github.io/sparklyr_brief_intro/presentation/intro_sprarklyr.html)
+
 ### Attribution
 
 These slides and demo were developed by collating resources made available by many wonderful folks and organizations:
