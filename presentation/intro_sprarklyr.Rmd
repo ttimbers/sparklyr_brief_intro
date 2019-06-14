@@ -76,6 +76,14 @@ source: http://www.big-data.tips/apache-spark-vs-hadoop
 
 ---
 
+## Hadoop vs Spark
+
+![](https://d2h0cx97tjks2p.cloudfront.net/blogs/wp-content/uploads/sites/2/2016/09/Hadoop-MapReduce-vs-Apache-Spark.jpg)
+
+source: https://data-flair.training/blogs/spark-vs-hadoop-mapreduce/
+
+---
+
 ## Choice for scaling out 
 
 Spark's increases in speed and ease of use means there is now a faster and smoother kid on the block...
@@ -93,6 +101,13 @@ Spark's increases in speed and ease of use means there is now a faster and smoot
 source:  [Zaharia et al. (2016). Apache Spark: A Unified Engine For Big Data Processing](https://m-cacm.acm.org/magazines/2016/11/209116-apache-spark/fulltext?mobile=true)
 
 ---
+
+![](img/languages.png)
+
+source: https://www.slideshare.net/SparkSummit/trends-for-big-data-and-apache-spark-in-2017-by-matei-zaharia
+
+---
+
 
 ## Leading Spark cloud platforms
 
