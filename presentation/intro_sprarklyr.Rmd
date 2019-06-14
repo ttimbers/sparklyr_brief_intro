@@ -128,3 +128,15 @@ Notebook 2 - [Analysis demo](https://databricks-prod-cloudfront.cloud.databricks
 
 [Notebook](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/122317798088836/2899638924944155/7990734693716546/latest.html)
 
+---
+
+## Resources:
+
+- <div class="highlight">[spark.rstudio.com](https://spark.rstudio.com):</div> Main **documentation** site with examples and reference functions.
+- <div class="highlight">[community.rstudio.com](https://community.rstudio.com/search?q=sparklyr):</div> sparklyr questions? Use the the **RStudio Community**.
+- <div class="highlight">[stackoverflow.com/tags/sparklyr](https://stackoverflow.com/tags/sparklyr):</div> General questions? **Stack Overflow** is a good place to start.
+- <div class="highlight">[gitter.im/rstudio/sparklyr](https://gitter.im/rstudio/sparklyr):</div> Anything urgent? Chat with on the RStudio `sparklyr` **Gitter**!
+- <div class="highlight">[https://docs.databricks.com/spark/latest/sparkr](https://docs.databricks.com/spark/latest/sparkr/sparklyr.html):</div> Databricks Spark + R **documentation**?
+
+*Attribution: [Javier Luraschi's talk slides from SDSS 2019](https://github.com/javierluraschi/talks/tree/master/2019-05-31)*
+
